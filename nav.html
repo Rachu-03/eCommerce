@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+
+ .nav{
+     display: flex;
+     flex-direction: row; 
+     background-color:#ddba8ddc;
+     justify-content: space-between;
+     padding: 10px;
+ }
+ .head{            
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    
+ }
+ .userName{
+     margin-top: 25px;
+ }
+ .head2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+ }
+ .hot-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+   
+ }
+ .cool{
+    text-align:center;
+ }
+ .img1{
+    width: 100px;
+ }
+ .item{
+    height: 160px;
+    width: 155px;
+ }
+ .discount{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+ }
+ .per{
+    background-color: rgb(189, 175, 175);
+    color: rgb(214, 131, 36);
+ }
+  </style>
+</head>
+<body>
+    
+    
+        <div class="head">
+            <div class="shop"><h2>shopcart</h2></div> 
+            <div class="userName"> <b>User name</b> </div>
+        </div>
+        <div class="head2">
+            <div class="location"><input type="button" value="Chennai 654001" style="background-color: orange;"></div>
+            <div class="search"><input type="search" placeholder="search"></div>
+        </div>
+   <br> 
+
+   <div class="nav">
+   <div class="Fresh">Fresh</div>
+   <div class="Today"> Today's Deals </div>
+   <div class="Mobiles">Mobiles </div>
+   <div class="Gift">Gift Cards</div>
+   <div class="Clothing">Clothing </div>
+   <div class="Health">Health </div>
+   <div class="Pet">Pet corner </div>
+   <div class="Books">Books</div>       
+   <div class="Beauty">Beauty </div>
+   <div class="Kitchen">Kitchen </div>
+   <div class="Bed">Bed Room </div>
+   <div class="Sport">Sport </div>
+   <div class="Bags">Bags </div>
+</div>
+<h2 class="cool">We picked some <span style="color: orange;">cool things for you!*</span></h2>
+ <h3 style="text-align: center;">hot deals for you</h3>
+<br>
+
+  <div class="hot-items">
+    <div class="item">
+        <img class="img1" src="air fryer.jfif" alt="Inalsa Air Fryer">
+        <p>Inalsa Air Fryer Fry-Light-1400W</p>
+        
+        <div class="discount">
+            <p>4,627.00</p>
+            <p class="per">40% off</p>
+        </div>
+        
+    </div>
+    <div class="item">
+        <img class="img1" src="bluetooth.png" alt="OnePlus Bullets Z2">
+        <p>OnePlus Bullets Z2 Bluetooth Wireless</p>
+        <div class="discount">
+                    <p>₹3,000.00</p>
+                    <p class="per">26% off</p>
+                </div>
+    </div>
+    <div class="item">
+        <img class="img1" src="watch.jfif" alt="Fastrack Watch">
+        <p>New Fastrack Reflex Play</p>
+        <div class="discount">
+            <p>₹5,699.00</p>
+            <p class="per">36% off</p>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img1" src="iphone.jfif" alt="iPhone 13">
+        <p>New Apple iPhone 13 </p>
+        <div class="discount">
+            <p>₹47,900.00</p>
+            <p class="per">40% off</p>
+        </div>
+    </div>
+    <div class="item">
+        <img class="img1" src="samsung.jfif" alt="Samsung Galaxy Tab S8+">
+        <p>New Samsung Galaxy Tab S8+ </p>
+         
+         <div class="discount">
+            <p> ₹79,990.00</p>
+            <p class="per">30% off</p>
+        </div>   
+    </div>
+    <div class="item">
+        <img class="img1" src="camera.jfif" alt="Kodak Mini Shot 3 Retro Yellow, Bluetooth">
+        <p>New Kodak Mini Shot 3 Retro Yellow, Bluetooth </p>
+         <div class="discount">
+            <p> ₹20,398.00</p>
+            <p class="per">31% off</p>
+        </div>   
+    </div>
+</div>
+  </div>
+    <br><br><br><br><br><br>
+    <h3>Today's hot deals</h3>
+    <hr style="border-top: dotted 1px;color: orange;"/>
+   
+    <div class="hot-items">
+        <div class="item">
+            <img class="img1" src="air fryer.jfif" alt="Inalsa Air Fryer">
+            <p>Inalsa Air Fryer Fry-Light-1400W</p>
+            
+            <div class="discount">
+                <p>4,627.00</p>
+                <p class="per">40% off</p>
+            </div>
+            
+        </div>
+        <div class="item">
+            <img class="img1" src="bluetooth.png" alt="OnePlus Bullets Z2">
+            <p>OnePlus Bullets Z2 Bluetooth Wireless</p>
+            <div class="discount">
+                        <p>₹3,000.00</p>
+                        <p class="per">26% off</p>
+                    </div>
+        </div>
+    <!--
+</section>
+<section class="today-deals">
+<h2>Today's hot deals</h2>
+<div class="deal-items">
+    <div class="deal">
+        <img src="mouse.jpeg" alt="Mouse">
+        <p>ZEBRONICS ZEB-Reaper Mouse</p>
+        <div class="discount">-40% off </div>
+        <div> <p>₹1,599.00 </p>
+      <button class="add-to-cart">Add to cart</button></div>
+       
+    </div>
+    <div class="deal">
+        <img src="keyboard.jpg" alt="Keyboard">
+        <p>Zebronics Transformer Keyboard</p>
+        <p> ₹1,125.00</p>
+        <div class="discount">-36% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+    <div class="deal">
+        <img src="usb.jpeg" alt="USB Hub">
+        <p>TP-Link USB Hub</p>
+        <p>₹1,999.00</p>
+        <div class="discount">-36% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+    <div class="deal">
+        <img src="desk mat.jpg" alt="deskmat">
+        <p>Scarters Mouse Pad, deskmat</p>
+        <p> ₹996.00 </p>
+        <div class="discount">-30% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+    <div class="deal">
+        <img src="headphone.jpg" alt="headphone">
+        <p>HyperX Streamer Starter Pack</p>
+        <p>₹28,025.00 </p>
+        <div class="discount">-26% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+</section>
+<section class="review">
+<h2>Review your purchase</h2>
+<div class="review-items">
+    <div class="review-item">
+        <img src="ipad.jpeg" alt="iPad">
+        <p>Apple iPad Pro with M1 Chip</p>
+        <p>₹99,900.00</p>
+        <div class="discount">-26% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+    <div class="review-item">
+        <img src="Apple iPhone 13 (128GB).jpeg" alt="iPhone 13">
+        <p>New Apple iPhone 13</p>
+        <p>₹47,900.00</p>
+        <div class="discount">-26% off <button class="add-to-cart">Add to cart</button></div>
+    </div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="footer-content">
+<div class="footer-left">
+<p1>shop<span>cart</span></p1>
+<p>&copy; 2025 shopcart. All rights reserved.</p>
+</div>
+<div class="footer-links">
+<a href="#">About</a>
+<a href="#">Contact</a>
+<a href="#">Terms</a>
+<a href="#">Help</a>
+</div>
+<div class="footer-language">
+<select name="language" id="language">
+  <option value="en">English</option>
+  <option value="tm">தமிழ்</option>
+  <option value="fr">French</option>
+  <option value="de">Deutsch</option>
+</select>
+</div>
+</div>
+</footer>-->
+
+
+
+</body>
+</html>
